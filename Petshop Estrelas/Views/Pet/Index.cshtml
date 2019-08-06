@@ -1,0 +1,39 @@
+﻿
+@{
+//ViewData["Title"] = "Home Pet";
+}
+
+<h1>Pets</h1>
+
+<label>Entre com os dados do Pet</label>
+<br/>
+<label>Nome</label>
+<input type="text" id="name" name="name" />
+<br />
+<label>Idade</label>
+<input type="text" id="age" name="age" />
+<br />
+<label>Raça</label>
+<input type="text" id="breed" name="breed" />
+<br />
+
+<input class="btn btn-primary" type="button" value="Enviar" />
+
+
+<div class="form-horizontal">
+    <div class="widget-content">
+        <table class="table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Raça</th>
+                    <th>Idade</th>
+                    <th>Nome</th>
+                </tr>
+            </thead>
+            @*<tbody>
+                </tbody>*@
+        </table>
+    </div>
+</div>
+
